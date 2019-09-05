@@ -2,7 +2,6 @@ package com.abhibus;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
 import static com.codeborne.selenide.Condition.appear;
@@ -11,8 +10,6 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class BusSearchTest {
-
-    WebDriver driver;
 
     @BeforeClass
     @Parameters({"browser"})
