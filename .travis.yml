@@ -1,5 +1,5 @@
-# Try windows
-os: windows
+# Try OSX
+os: osx
 language: java
 # JDK platform
 #jdk:
