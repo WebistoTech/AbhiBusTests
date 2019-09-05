@@ -1,5 +1,5 @@
-# Use Ubuntu host
-os: linux
+# Try windows
+os: windows
 language: java
 # JDK platform
 #jdk:
