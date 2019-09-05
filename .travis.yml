@@ -1,9 +1,9 @@
 # Use Ubuntu host
-dist: bionic
+os: linux
 language: java
 # JDK platform
-jdk:
-  - oraclejdk8
+#jdk:
+#  - oraclejdk8
 # enable browsers
 addons:
   firefox: latest
