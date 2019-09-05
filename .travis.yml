@@ -1,0 +1,13 @@
+# Use Ubuntu host
+dist: bionic
+language: java
+# JDK platform
+jdk:
+  - oraclejdk8
+# enable browsers
+addons:
+  firefox: latest
+  chrome: stable
+
+# Default command
+#script: mvn test -B
