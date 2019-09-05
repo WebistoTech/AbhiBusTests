@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AbhiBus Test Suite">
+    <test name="Bus Search">
+        <classes>
+            <class name="com.abhibus.BusSearchTest"/>
+        </classes>
+    </test>
+</suite>
