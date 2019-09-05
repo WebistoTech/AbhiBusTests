@@ -1,4 +1,4 @@
-image: pdouble16/bitbucket-pipeline-browsers
+image: aerokube/selenoid
 
 pipelines:
   default:
